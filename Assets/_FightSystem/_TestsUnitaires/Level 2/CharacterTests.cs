@@ -13,7 +13,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void CharacterConstructor()
         {
-            var c = new Character(100, 50, 30, 20, TYPE.NORMAL);
+            var c = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
 
             Assert.That(c.MaxHealth, Is.EqualTo(100));
             Assert.That(c.Attack, Is.EqualTo(50));
@@ -38,7 +38,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void CharacterEquipped()
         {
-            var c = new Character(100, 50, 30, 20, TYPE.NORMAL);
+            var c = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
             var e = new Equipment(100, 90, 70, 12);
 
             // Equip character
@@ -65,7 +65,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void CharacterEquippedNullCheck()
         {
-            var c = new Character(100, 50, 30, 20, TYPE.NORMAL);
+            var c = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
             Assert.Throws<ArgumentNullException>(() =>
             {
                 // Equip character
@@ -76,7 +76,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void CharacterReceivePunch()
         {
-            var pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
+            var pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
             var punch = new Punch();
             var oldHealth = pikachu.CurrentHealth;
 
@@ -99,7 +99,7 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void CharacterEquippedReceivePunch()
         {
-            var pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
+            var pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
             var shield = new Equipment(0, 0, 10, 0);
             pikachu.Equip(shield);
 
@@ -128,8 +128,8 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void FightConstructor()
         {
-            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            Character mewtwo = new Character(1000, 500, 300, 200, TYPE.NORMAL);
+            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
+            Character mewtwo = new Character(1000, 500, 300, 200, TYPE.NORMAL, false);
             Fight f = new Fight(pikachu, mewtwo);
 
             Assert.That(f.Character1, Is.EqualTo(pikachu));
@@ -140,8 +140,8 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void CreateFightNullCheck()
         {
-            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            Character mewtwo = new Character(1000, 500, 300, 200, TYPE.NORMAL);
+            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
+            Character mewtwo = new Character(1000, 500, 300, 200, TYPE.NORMAL, false);
 
             Assert.Throws<ArgumentNullException>(() =>
             {
@@ -157,8 +157,8 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void FightWithOneTurn()
         {
-            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            Character bulbizarre = new Character(90, 60, 10, 200, TYPE.NORMAL);
+            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
+            Character bulbizarre = new Character(90, 60, 10, 200, TYPE.NORMAL, false);
             Fight f = new Fight(pikachu, bulbizarre);
             Punch p = new Punch();
 
@@ -173,8 +173,8 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void FightWithOneShotTurn()
         {
-            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL);
-            Character mewtwo = new Character(1000, 5000, 0, 200, TYPE.NORMAL);
+            Character pikachu = new Character(100, 50, 30, 20, TYPE.NORMAL, false);
+            Character mewtwo = new Character(1000, 5000, 0, 200, TYPE.NORMAL, false);
             Fight f = new Fight(pikachu, mewtwo);
             Punch p = new Punch();
 

@@ -1,0 +1,3822 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: Test Runner
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1343
+    height: 847
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 2}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 577
+    y: 0
+    width: 1343
+    height: 947
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 245
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 244
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 847
+    width: 1343
+    height: 100
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 130
+    height: 561
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 561
+    width: 577
+    height: 386
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 977
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 577
+    height: 947
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 89
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 577
+    height: 561
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 90
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 130
+    y: 0
+    width: 447
+    height: 561
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 577
+    y: 73
+    width: 1342
+    height: 826
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 261
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 567
+    - 189
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 756
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 0}
+    m_NewResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 14}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[A2 POO][suite]'
+      name: A2 POO
+      fullName: A2 POO
+      resultStatus: 2
+      duration: 0.1398399
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1114
+      uniqueId: '[Tests.dll][suite]'
+      name: Tests.dll
+      fullName: D:/Github/TU_April/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 2
+      duration: 0.1264283
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[A2 POO][suite]'
+    - id: 1115
+      uniqueId: Tests.dll/[_2023_GC_A2_Partiel_POO][suite]
+      name: _2023_GC_A2_Partiel_POO
+      fullName: _2023_GC_A2_Partiel_POO
+      resultStatus: 2
+      duration: 0.1250198
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1114
+      parentUniqueId: '[Tests.dll][suite]'
+    - id: 1116
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/[Tests][suite]
+      name: Tests
+      fullName: _2023_GC_A2_Partiel_POO.Tests
+      resultStatus: 2
+      duration: 0.1236314
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1115
+      parentUniqueId: Tests.dll/[_2023_GC_A2_Partiel_POO][suite]
+    - id: 1118
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1][suite]
+      name: Level_1
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1
+      resultStatus: 2
+      duration: 0.1066162
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1116
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/[Tests][suite]
+    - id: 1012
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+      name: MyArrayTests
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests
+      resultStatus: 2
+      duration: 0.0478243
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1][suite]
+    - id: 1015
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray][suite]
+      name: AddElementInArray
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
+      resultStatus: 2
+      duration: 0.0144021
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1013
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/AddElementInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[])]
+      name: AddElementInArray(System.Int32[],12,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[])
+      resultStatus: 2
+      duration: 0.0058324
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray][suite]
+    - id: 1014
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/AddElementInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[])]2
+      name: AddElementInArray(System.Int32[],12,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[]
+        GeneratedTestCase2)
+      resultStatus: 2
+      duration: 0.0000912
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray][suite]
+    - id: 1017
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck][suite]
+      name: AddElementInArrayNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck
+      resultStatus: 2
+      duration: 0.0089362
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1016
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/AddElementInArrayNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck(null,12)]
+      name: AddElementInArrayNullCheck(null,12)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck(null,12)
+      resultStatus: 2
+      duration: 0.0056852
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass1_0.<AddElementInArrayNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:31 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck
+        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:29
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1017
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck][suite]
+    - id: 1021
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays][suite]
+      name: ConcatArrays
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+      resultStatus: 2
+      duration: 0.0038464
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1018
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/ConcatArrays/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[])]
+      name: ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
+      resultStatus: 2
+      duration: 0.0002507
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+        (System.Int32[] initialArray, System.Int32[] elementToAdd, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays][suite]
+    - id: 1019
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/ConcatArrays/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[])]2
+      name: ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[]
+        GeneratedTestCase2)
+      resultStatus: 2
+      duration: 0.0000823
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+        (System.Int32[] initialArray, System.Int32[] elementToAdd, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays][suite]
+    - id: 1020
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/ConcatArrays/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[])]3
+      name: ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[]
+        GeneratedTestCase3)
+      resultStatus: 2
+      duration: 0.0000763
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+        (System.Int32[] initialArray, System.Int32[] elementToAdd, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1021
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays][suite]
+    - id: 1025
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck][suite]
+      name: ConcatArraysNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
+      resultStatus: 2
+      duration: 0.0035943
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1022
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/ConcatArraysNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(System.Int32[],null)]
+      name: ConcatArraysNullCheck(System.Int32[],null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(System.Int32[],null)
+      resultStatus: 2
+      duration: 0.0003601
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:53 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:51
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck][suite]
+    - id: 1023
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/ConcatArraysNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,System.Int32[])]
+      name: ConcatArraysNullCheck(null,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,System.Int32[])
+      resultStatus: 2
+      duration: 0.0001483
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:53 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:51
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck][suite]
+    - id: 1024
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/ConcatArraysNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,null)]
+      name: ConcatArraysNullCheck(null,null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,null)
+      resultStatus: 2
+      duration: 0.0001661
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:53 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:51
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck][suite]
+    - id: 1030
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray][suite]
+      name: RemoveElementInArray
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+      resultStatus: 2
+      duration: 0.0038326
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1026
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],1,System.Int32[])]
+      name: RemoveElementInArray(System.Int32[],1,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],1,System.Int32[])
+      resultStatus: 2
+      duration: 0.0001652
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray][suite]
+    - id: 1027
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],2,System.Int32[])]
+      name: RemoveElementInArray(System.Int32[],2,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],2,System.Int32[])
+      resultStatus: 2
+      duration: 0.0000914
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray][suite]
+    - id: 1028
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],3,System.Int32[])]
+      name: RemoveElementInArray(System.Int32[],3,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],3,System.Int32[])
+      resultStatus: 2
+      duration: 0.0000855
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray][suite]
+    - id: 1029
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],4,System.Int32[])]
+      name: RemoveElementInArray(System.Int32[],4,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],4,System.Int32[])
+      resultStatus: 2
+      duration: 0.0000761
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray][suite]
+    - id: 1032
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck][suite]
+      name: RemoveElementInArrayNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck
+      resultStatus: 2
+      duration: 0.0030043
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1031
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementInArrayNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck(null,1)]
+      name: RemoveElementInArrayNullCheck(null,1)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck(null,1)
+      resultStatus: 2
+      duration: 0.000295
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass5_0.<RemoveElementInArrayNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:74 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck
+        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:72
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck][suite]
+    - id: 1037
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray][suite]
+      name: RemoveElementsInArray
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+      resultStatus: 2
+      duration: 0.0033124
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1033
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])]
+      name: RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
+      resultStatus: 2
+      duration: 0.0001717
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+        (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray][suite]
+    - id: 1034
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])]2
+      name: RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
+        GeneratedTestCase2)
+      resultStatus: 2
+      duration: 0.0000795
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+        (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray][suite]
+    - id: 1035
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])]3
+      name: RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
+        GeneratedTestCase3)
+      resultStatus: 2
+      duration: 0.0000754
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+        (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray][suite]
+    - id: 1036
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArray/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])]4
+      name: RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
+        GeneratedTestCase4)
+      resultStatus: 2
+      duration: 0.0000869
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+        (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray][suite]
+    - id: 1041
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck][suite]
+      name: RemoveElementsInArrayNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
+      resultStatus: 2
+      duration: 0.0034352
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests][suite]
+    - id: 1038
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArrayNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,System.Int32[])]
+      name: RemoveElementsInArrayNullCheck(null,System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,System.Int32[])
+      resultStatus: 2
+      duration: 0.0003108
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:97 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:95
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck][suite]
+    - id: 1039
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArrayNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(System.Int32[],null)]
+      name: RemoveElementsInArrayNullCheck(System.Int32[],null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(System.Int32[],null)
+      resultStatus: 2
+      duration: 0.0001535
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:97 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:95
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck][suite]
+    - id: 1040
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/RemoveElementsInArrayNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,null)]
+      name: RemoveElementsInArrayNullCheck(null,null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,null)
+      resultStatus: 2
+      duration: 0.0001422
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyArrayTests.cs:97 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyArrayTests.cs:95
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyArrayTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck][suite]
+    - id: 1042
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+      name: MyMathsTests
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests
+      resultStatus: 2
+      duration: 0.0292137
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1][suite]
+    - id: 1046
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest][suite]
+      name: AbsoluteTest
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
+      resultStatus: 2
+      duration: 0.0021298
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1043
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AbsoluteTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(1,1)]
+      name: AbsoluteTest(1,1)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(1,1)
+      resultStatus: 2
+      duration: 0.0003582
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
+        (System.Int32 input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:19 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest][suite]
+    - id: 1044
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AbsoluteTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(-11,11)]
+      name: AbsoluteTest(-11,11)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(-11,11)
+      resultStatus: 2
+      duration: 0.0001159
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
+        (System.Int32 input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:19 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest][suite]
+    - id: 1045
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AbsoluteTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(0,0)]
+      name: AbsoluteTest(0,0)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(0,0)
+      resultStatus: 2
+      duration: 0.0001134
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
+        (System.Int32 input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:19 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest][suite]
+    - id: 1072
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest][suite]
+      name: AverageTest
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
+      resultStatus: 2
+      duration: 0.0032699
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1070
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AverageTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],2,2)]
+      name: AverageTest(System.Int32[],2,2)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],2,2)
+      resultStatus: 2
+      duration: 0.0002779
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
+        (System.Int32[] input, System.Single expectedMin, System.Single expectedMax)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:75 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest][suite]
+    - id: 1071
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AverageTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],46.1f,46.2f)]
+      name: AverageTest(System.Int32[],46.1f,46.2f)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],46.1f,46.2f)
+      resultStatus: 2
+      duration: 0.0000799
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
+        (System.Int32[] input, System.Single expectedMin, System.Single expectedMax)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:75 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest][suite]
+    - id: 1076
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput][suite]
+      name: AverageTestEmptyInput
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput
+      resultStatus: 2
+      duration: 0.0028176
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1075
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AverageTestEmptyInput/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput(System.Int32[])]
+      name: AverageTestEmptyInput(System.Int32[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput(System.Int32[])
+      resultStatus: 2
+      duration: 0.0003715
+      messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass7_0.<AverageTestEmptyInput>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:94 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput
+        (System.Int32[] input) [0x0000c] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyMathsTests.cs:92
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1076
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput][suite]
+    - id: 1074
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck][suite]
+      name: AverageTestNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck
+      resultStatus: 2
+      duration: 0.0028103
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1073
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AverageTestNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck(null)]
+      name: AverageTestNullCheck(null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck(null)
+      resultStatus: 2
+      duration: 0.0002913
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass6_0.<AverageTestNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:84 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck
+        (System.Int32[] input) [0x0000c] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\MyMathsTests.cs:82
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1074
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck][suite]
+    - id: 1062
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest][suite]
+      name: CeilTest
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+      resultStatus: 2
+      duration: 0.0032606
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1057
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/CeilTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(1.0f,1)]
+      name: CeilTest(1.0f,1)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(1.0f,1)
+      resultStatus: 2
+      duration: 0.0002376
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest][suite]
+    - id: 1058
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/CeilTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(2.2f,3)]
+      name: CeilTest(2.2f,3)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(2.2f,3)
+      resultStatus: 2
+      duration: 0.0000792
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest][suite]
+    - id: 1059
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/CeilTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(3.5f,4)]
+      name: CeilTest(3.5f,4)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(3.5f,4)
+      resultStatus: 2
+      duration: 0.0000734
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest][suite]
+    - id: 1060
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/CeilTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(4.6f,5)]
+      name: CeilTest(4.6f,5)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(4.6f,5)
+      resultStatus: 2
+      duration: 0.0000727
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest][suite]
+    - id: 1061
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/CeilTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(5.9f,6)]
+      name: CeilTest(5.9f,6)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(5.9f,6)
+      resultStatus: 2
+      duration: 0.0000716
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest][suite]
+    - id: 1050
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest][suite]
+      name: ClampTest
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
+      resultStatus: 2
+      duration: 0.0035089
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1047
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/ClampTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(5,1,10,5)]
+      name: ClampTest(5,1,10,5)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(5,1,10,5)
+      resultStatus: 2
+      duration: 0.0002867
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
+        (System.Int32 input, System.Int32 min, System.Int32 max, System.Int32 expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:29 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1050
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest][suite]
+    - id: 1048
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/ClampTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(50,1,10,10)]
+      name: ClampTest(50,1,10,10)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(50,1,10,10)
+      resultStatus: 2
+      duration: 0.0000829
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
+        (System.Int32 input, System.Int32 min, System.Int32 max, System.Int32 expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:29 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1050
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest][suite]
+    - id: 1049
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/ClampTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(-50,1,10,1)]
+      name: ClampTest(-50,1,10,1)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(-50,1,10,1)
+      resultStatus: 2
+      duration: 0.0000797
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
+        (System.Int32 input, System.Int32 min, System.Int32 max, System.Int32 expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:29 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1050
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest][suite]
+    - id: 1056
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
+      name: FloorTest
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
+      resultStatus: 2
+      duration: 0.0040366
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1051
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(1.0f,1)]
+      name: FloorTest(1.0f,1)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(1.0f,1)
+      resultStatus: 2
+      duration: 0.0001877
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
+    - id: 1052
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(2.2f,2)]
+      name: FloorTest(2.2f,2)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(2.2f,2)
+      resultStatus: 2
+      duration: 0.0000817
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
+    - id: 1053
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(3.5f,3)]
+      name: FloorTest(3.5f,3)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(3.5f,3)
+      resultStatus: 2
+      duration: 0.0000798
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
+    - id: 1054
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(4.6f,4)]
+      name: FloorTest(4.6f,4)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(4.6f,4)
+      resultStatus: 2
+      duration: 0.0000734
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
+    - id: 1055
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(5.9f,5)]
+      name: FloorTest(5.9f,5)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(5.9f,5)
+      resultStatus: 2
+      duration: 0.0000764
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
+    - id: 1069
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+      name: RoundTest
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+      resultStatus: 2
+      duration: 0.0037615
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests][suite]
+    - id: 1063
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(1.0f,1)]
+      name: RoundTest(1.0f,1)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(1.0f,1)
+      resultStatus: 2
+      duration: 0.0002082
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+    - id: 1064
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(2.2f,2)]
+      name: RoundTest(2.2f,2)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(2.2f,2)
+      resultStatus: 2
+      duration: 0.0000853
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+    - id: 1065
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.49f,3)]
+      name: RoundTest(3.49f,3)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.49f,3)
+      resultStatus: 2
+      duration: 0.0000764
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+    - id: 1066
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.5f,4)]
+      name: RoundTest(3.5f,4)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.5f,4)
+      resultStatus: 2
+      duration: 0.000082
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+    - id: 1067
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(4.6f,5)]
+      name: RoundTest(4.6f,5)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(4.6f,5)
+      resultStatus: 2
+      duration: 0.0000733
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+    - id: 1068
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(5.9f,6)]
+      name: RoundTest(5.9f,6)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(5.9f,6)
+      resultStatus: 2
+      duration: 0.000072
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
+        (System.Single input, System.Int32 expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1069
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
+    - id: 1077
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+      name: StringTests
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests
+      resultStatus: 2
+      duration: 0.027056
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1118
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1][suite]
+    - id: 1083
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement][suite]
+      name: BasicReplacement
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+      resultStatus: 2
+      duration: 0.0012866
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1078
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
+        {name}","Bidule","Hello Bidule")]
+      name: BasicReplacement("Hello {name}","Bidule","Hello Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
+        {name}","Bidule","Hello Bidule")
+      resultStatus: 2
+      duration: 0.0001732
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+        (System.String baseValue, System.String replacement, System.String expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement][suite]
+    - id: 1079
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
+        {name}","","Hello ")]
+      name: BasicReplacement("Hello {name}","","Hello ")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
+        {name}","","Hello ")
+      resultStatus: 2
+      duration: 0.0000801
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+        (System.String baseValue, System.String replacement, System.String expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement][suite]
+    - id: 1080
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hel{name}lo
+        {name}","Bidule","HelBidulelo Bidule")]
+      name: BasicReplacement("Hel{name}lo {name}","Bidule","HelBidulelo Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hel{name}lo
+        {name}","Bidule","HelBidulelo Bidule")
+      resultStatus: 2
+      duration: 0.0000763
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+        (System.String baseValue, System.String replacement, System.String expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement][suite]
+    - id: 1081
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("{name}
+        come in","Bidule","Bidule come in")]
+      name: BasicReplacement("{name} come in","Bidule","Bidule come in")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("{name}
+        come in","Bidule","Bidule come in")
+      resultStatus: 2
+      duration: 0.0000734
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+        (System.String baseValue, System.String replacement, System.String expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement][suite]
+    - id: 1082
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
+        you","Bidule","Hello you")]
+      name: BasicReplacement("Hello you","Bidule","Hello you")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
+        you","Bidule","Hello you")
+      resultStatus: 2
+      duration: 0.0000724
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+        (System.String baseValue, System.String replacement, System.String expected)
+        [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement][suite]
+    - id: 1087
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck][suite]
+      name: BasicReplacementNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
+      resultStatus: 2
+      duration: 0.0034349
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1084
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck("Hello
+        {name}",null)]
+      name: BasicReplacementNullCheck("Hello {name}",null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck("Hello
+        {name}",null)
+      resultStatus: 2
+      duration: 0.0003403
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:34 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
+        (System.String baseValue, System.String replacement) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:32
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck][suite]
+    - id: 1085
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,"Bidule")]
+      name: BasicReplacementNullCheck(null,"Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,"Bidule")
+      resultStatus: 2
+      duration: 0.0001488
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:34 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
+        (System.String baseValue, System.String replacement) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:32
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck][suite]
+    - id: 1086
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,null)]
+      name: BasicReplacementNullCheck(null,null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,null)
+      resultStatus: 2
+      duration: 0.0001617
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:34 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
+        (System.String baseValue, System.String replacement) [0x00013] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:32
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1087
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck][suite]
+    - id: 1094
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+      name: BasicReplacementWithGivenTag
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      resultStatus: 2
+      duration: 0.0038078
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1088
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        {name}","{name}","Bidule","Hello Bidule")]
+      name: BasicReplacementWithGivenTag("Hello {name}","{name}","Bidule","Hello
+        Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        {name}","{name}","Bidule","Hello Bidule")
+      resultStatus: 2
+      duration: 0.0003211
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+        (System.String baseValue, System.String tag, System.String replacement, System.String
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+    - id: 1089
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        {name}","{name}","","Hello ")]
+      name: BasicReplacementWithGivenTag("Hello {name}","{name}","","Hello ")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        {name}","{name}","","Hello ")
+      resultStatus: 2
+      duration: 0.0001203
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+        (System.String baseValue, System.String tag, System.String replacement, System.String
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+    - id: 1090
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        {insert name}","{insert name}","Bidule","Hello Bidule")]
+      name: BasicReplacementWithGivenTag("Hello {insert name}","{insert name}","Bidule","Hello
+        Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        {insert name}","{insert name}","Bidule","Hello Bidule")
+      resultStatus: 2
+      duration: 0.0001149
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+        (System.String baseValue, System.String tag, System.String replacement, System.String
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+    - id: 1091
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        ","{name}","Bidule","Hello ")]
+      name: BasicReplacementWithGivenTag("Hello ","{name}","Bidule","Hello ")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        ","{name}","Bidule","Hello ")
+      resultStatus: 2
+      duration: 0.000114
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+        (System.String baseValue, System.String tag, System.String replacement, System.String
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+    - id: 1092
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        [nom]","[name]","Bidule","Hello [nom]")]
+      name: BasicReplacementWithGivenTag("Hello [nom]","[name]","Bidule","Hello [nom]")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
+        [nom]","[name]","Bidule","Hello [nom]")
+      resultStatus: 2
+      duration: 0.0000903
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+        (System.String baseValue, System.String tag, System.String replacement, System.String
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+    - id: 1093
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("oh
+        bah c'est des gamerz","a","@","oh b@h c'est des g@merz")]
+      name: BasicReplacementWithGivenTag("oh bah c'est des gamerz","a","@","oh b@h
+        c'est des g@merz")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("oh
+        bah c'est des gamerz","a","@","oh b@h c'est des g@merz")
+      resultStatus: 2
+      duration: 0.0000782
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+        (System.String baseValue, System.String tag, System.String replacement, System.String
+        expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1094
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag][suite]
+    - id: 1102
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+      name: BasicReplacementWithGivenTagNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+      resultStatus: 2
+      duration: 0.0045351
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1095
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")]
+      name: BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")
+      resultStatus: 2
+      duration: 0.0003145
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1096
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
+        {name}",null,"Bidule")]
+      name: BasicReplacementWithGivenTagNullCheck("Hello {name}",null,"Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
+        {name}",null,"Bidule")
+      resultStatus: 2
+      duration: 0.0002019
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1097
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
+        {name}","{name}",null)]
+      name: BasicReplacementWithGivenTagNullCheck("Hello {name}","{name}",null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
+        {name}","{name}",null)
+      resultStatus: 2
+      duration: 0.0001442
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1098
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")]
+      name: BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")
+      resultStatus: 2
+      duration: 0.0001433
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1099
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
+        {name}",null,null)]
+      name: BasicReplacementWithGivenTagNullCheck("Hello {name}",null,null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
+        {name}",null,null)
+      resultStatus: 2
+      duration: 0.0001364
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1100
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}",null)]
+      name: BasicReplacementWithGivenTagNullCheck(null,"{name}",null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}",null)
+      resultStatus: 2
+      duration: 0.0001948
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1101
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,null)]
+      name: BasicReplacementWithGivenTagNullCheck(null,null,null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,null)
+      resultStatus: 2
+      duration: 0.000145
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:62
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1102
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck][suite]
+    - id: 1104
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag][suite]
+      name: BasicReplacementWithGivenTagVerifyEmptyTag
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag
+      resultStatus: 2
+      duration: 0.0024027
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1103
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/BasicReplacementWithGivenTagVerifyEmptyTag/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag("Hello
+        {name}","","Bidule")]
+      name: BasicReplacementWithGivenTagVerifyEmptyTag("Hello {name}","","Bidule")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag("Hello
+        {name}","","Bidule")
+      resultStatus: 2
+      duration: 0.0002886
+      messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass4_0.<BasicReplacementWithGivenTagVerifyEmptyTag>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:74 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level 1\StringTests.cs:72
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1104
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag][suite]
+    - id: 1106
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement][suite]
+      name: MultipleTagReplacement
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement
+      resultStatus: 2
+      duration: 0.0021853
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1105
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/MultipleTagReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement("I'm
+        {name}, I'm {age} YO",System.String[],System.String[],"I'm Bidule, I'm 42
+        YO")]
+      name: MultipleTagReplacement("I'm {name}, I'm {age} YO",System.String[],System.String[],"I'm
+        Bidule, I'm 42 YO")
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement("I'm
+        {name}, I'm {age} YO",System.String[],System.String[],"I'm Bidule, I'm 42
+        YO")
+      resultStatus: 2
+      duration: 0.0001561
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
+      output: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement
+        (System.String baseValue, System.String[] tags, System.String[] replacements,
+        System.String expected) [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:87 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <1f66344f2f89470293d8b67d71308c07>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1106
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement][suite]
+    - id: 1113
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement][suite]
+      name: MultipleTagReplacementMustContainsAsManyTagsAsReplacement
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
+      resultStatus: 2
+      duration: 0.0027205
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1111
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/MultipleTagReplacementMustContainsAsManyTagsAsReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
+        {name}, I'm {age} YO",System.String[],System.String[])]
+      name: MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm {name},
+        I'm {age} YO",System.String[],System.String[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
+        {name}, I'm {age} YO",System.String[],System.String[])
+      resultStatus: 2
+      duration: 0.0004079
+      messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:124 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
+        (System.String baseValue, System.String[] tags, System.String[] replacements)
+        [0x0001a] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:122
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1113
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement][suite]
+    - id: 1112
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/MultipleTagReplacementMustContainsAsManyTagsAsReplacement/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
+        {name}, I'm {age} YO",System.String[],System.String[])]2
+      name: MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm {name},
+        I'm {age} YO",System.String[],System.String[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
+        {name}, I'm {age} YO",System.String[],System.String[] GeneratedTestCase2)
+      resultStatus: 2
+      duration: 0.0001526
+      messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:124 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
+        (System.String baseValue, System.String[] tags, System.String[] replacements)
+        [0x0001a] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:122
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1113
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement][suite]
+    - id: 1110
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck][suite]
+      name: MultipleTagReplacementNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
+      resultStatus: 2
+      duration: 0.002803
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1077
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests][suite]
+    - id: 1107
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/MultipleTagReplacementNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck(null,System.String[],System.String[])]
+      name: MultipleTagReplacementNullCheck(null,System.String[],System.String[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck(null,System.String[],System.String[])
+      resultStatus: 2
+      duration: 0.0002606
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:108 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
+        (System.String baseValue, System.String[] tags, System.String[] replacements)
+        [0x0001a] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:106
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1110
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck][suite]
+    - id: 1108
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/MultipleTagReplacementNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
+        {name}, I'm {age} YO",null,System.String[])]
+      name: MultipleTagReplacementNullCheck("I'm {name}, I'm {age} YO",null,System.String[])
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
+        {name}, I'm {age} YO",null,System.String[])
+      resultStatus: 2
+      duration: 0.0001448
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:108 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
+        (System.String baseValue, System.String[] tags, System.String[] replacements)
+        [0x0001a] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:106
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1110
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck][suite]
+    - id: 1109
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/MultipleTagReplacementNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
+        {name}, I'm {age} YO",System.String[],null)]
+      name: MultipleTagReplacementNullCheck("I'm {name}, I'm {age} YO",System.String[],null)
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
+        {name}, I'm {age} YO",System.String[],null)
+      resultStatus: 2
+      duration: 0.0001445
+      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
+        () [0x00000] in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        1\\StringTests.cs:108 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
+        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
+        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
+        (System.String baseValue, System.String[] tags, System.String[] replacements)
+        [0x0001a] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:106
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1110
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/StringTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck][suite]
+    - id: 1117
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2][suite]
+      name: Level_2
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2
+      resultStatus: 2
+      duration: 0.0155314
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1116
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/[Tests][suite]
+    - id: 1001
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+      name: CharacterTests
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests
+      resultStatus: 1
+      duration: 0.0099243
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1117
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2][suite]
+    - id: 1002
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterConstructor]
+      name: CharacterConstructor
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterConstructor
+      resultStatus: 1
+      duration: 0.005245
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquipped]
+      name: CharacterEquipped
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquipped
+      resultStatus: 1
+      duration: 0.0004909
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1005
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedNullCheck]
+      name: CharacterEquippedNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedNullCheck
+      resultStatus: 1
+      duration: 0.0001782
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1007
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedReceivePunch]
+      name: CharacterEquippedReceivePunch
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedReceivePunch
+      resultStatus: 1
+      duration: 0.0010533
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1006
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterReceivePunch]
+      name: CharacterReceivePunch
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterReceivePunch
+      resultStatus: 1
+      duration: 0.0002632
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1009
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CreateFightNullCheck]
+      name: CreateFightNullCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CreateFightNullCheck
+      resultStatus: 1
+      duration: 0.0002385
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1003
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.EquipmentConstructor]
+      name: EquipmentConstructor
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.EquipmentConstructor
+      resultStatus: 1
+      duration: 0.0001814
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1008
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightConstructor]
+      name: FightConstructor
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightConstructor
+      resultStatus: 1
+      duration: 0.0001977
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1011
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneShotTurn]
+      name: FightWithOneShotTurn
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneShotTurn
+      resultStatus: 1
+      duration: 0.0002984
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1010
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn]
+      name: FightWithOneTurn
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn
+      resultStatus: 1
+      duration: 0.0001629
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests][suite]
+    - id: 1012
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
+      name: FightMoreTests
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests
+      resultStatus: 2
+      duration: 0.0033291
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1119
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2][suite]
+    - id: 1013
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealCheck]
+      name: HealCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealCheck
+      resultStatus: 1
+      duration: 0.000167
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
+    - id: 1014
+      uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HPMaxHPCurCheck]
+      name: HPMaxHPCurCheck
+      fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HPMaxHPCurCheck
+      resultStatus: 2
+      duration: 0.0006376
+      messages: "  Expected: 50\r\n  But was:  100\r\n"
+      output: 
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HPMaxHPCurCheck
+        () [0x00016] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+        2\FightMoreTests.cs:44
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
+    m_ResultText: "HPMaxHPCurCheck (0,001s)\n---\nExpected: 50\r\n  But was:  100\n---\nat
+      _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HPMaxHPCurCheck () [0x00016]
+      in D:\\Github\\TU_April\\Assets\\_FightSystem\\_TestsUnitaires\\Level 2\\FightMoreTests.cs:44"
+    m_ResultStacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HPMaxHPCurCheck
+      () [0x00016] in D:\Github\TU_April\Assets\_FightSystem\_TestsUnitaires\Level
+      2\FightMoreTests.cs:44
+
+'
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: f797a699
+      m_LastClickedID: -1717135369
+      m_ExpandedIDs: 91b31f8cd79cbc8efe0c3696c841eb9b0cb21a9c300d44b922267fc8cc9770d955fc1ee2abe076e3d5f285e4325989f49a16fcf5e557abf7a401b6f93ded90fca1357c04f4d4b405c4064e06e34987325cfd90383e6cef3d27b858406538b342291d7b443a619c4543af29471a9eb34a742ccb4a00a4ea52b04e8456b66d7f6c98cea67c751a9b7dffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 634
+    width: 576
+    height: 365
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/_FightSystem/Level 2
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/_FightSystem/Level 2
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\Github\TU_April
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e0940000
+    m_LastClickedID: 38112
+    m_ExpandedIDs: 000000004a9400004c940000da94000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 577
+    y: 920
+    width: 1342
+    height: 79
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 129
+    height: 540
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 188cffff408effff3c94ffff6496ffffc6a4fffff8a6ffff52a9ffff7eabffff54aeffff24afffff7eb1ffffa4b3ffff8ed1ffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 130
+    y: 73
+    width: 445
+    height: 540
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    speed: 2
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 363
+    y: 73
+    width: 1101
+    height: 540
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1101, y: 519}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -550.5
+    m_HBaseRangeMax: 550.5
+    m_VBaseRangeMin: -259.5
+    m_VBaseRangeMax: 259.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1101
+      height: 519
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 550.5, y: 259.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -550.5
+      y: -259.5
+      width: 1101
+      height: 519
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1101, y: 540}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 634
+    width: 1465
+    height: 365
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []

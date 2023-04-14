@@ -30,8 +30,9 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
 
         Equipment _currentEquipment;
         int _maxHealth;
+        bool _priorityAttackEquipment;
 
-        public Character(int baseHealth, int baseAttack, int baseDefense, int baseSpeed, TYPE baseType)
+        public Character(int baseHealth, int baseAttack, int baseDefense, int baseSpeed, TYPE baseType, bool priorityAttackEquipment)
         {
             _baseHealth = baseHealth;
             _baseAttack = baseAttack;
@@ -39,6 +40,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             _baseSpeed = baseSpeed;
             _baseType = baseType;
             _maxHealth = _baseHealth;
+            _priorityAttackEquipment = priorityAttackEquipment;
         }
         /// <summary>
         /// HP actuel du personnage
@@ -96,6 +98,11 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
 
         public bool IsAlive => CurrentHealth > 0;
 
+        public bool AttackPriority
+        {
+            get => _priorityAttackEquipment;
+            private set { _priorityAttackEquipment = value; }
+        }
 
         /// <summary>
         /// Application d'un skill contre le personnage
@@ -154,5 +161,14 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             }
         }
 
+        public void LowerHPMax(int value)
+        {
+
+
+            if (CurrentHealth > MaxHealth)
+            {
+                CurrentHealth = MaxHealth;
+            }
+        }
     }
 }
