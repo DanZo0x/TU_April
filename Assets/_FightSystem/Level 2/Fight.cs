@@ -58,7 +58,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
                 }
             }
 
-            if (Character1.AttackPriority && Character2.AttackPriority)
+            if ((Character1.AttackPriority && Character2.AttackPriority) || (!Character1.AttackPriority && !Character2.AttackPriority))
             {
                 if (Character1.Speed >= Character2.Speed)
                 {
